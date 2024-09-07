@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    
+
+</head>
+  <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color:rgb(255,144,100);  
+    }
+    .navbar{
+      font-size:18px;
+      font-family: 'Poppins', sans-serif;
+      font-weight:400;
+      
+      
+     
+    }
+    .navbar-brand{
+       font-size: 40px;
+       font-weight:700;
+       
+    }
+    .nav-link{
+      position: relative;
+    }
+    .nav-link::before{
+      width:0%;
+      height:10%;
+      position: absolute;
+      content:"";
+      background-color:white;
+      top:35px;
+      left: 0;
+      transition: 1s;
+    }
+    .nav-link:hover::before{
+      width: 100%;
+    }
+    h1{
+        font-family: 'Poppins', sans-serif;
+      font-weight:400;
+      color: white; 
+      margin-top: 50px;
+    
+    }
+    h1 span{
+        color: black;
+    }
+    button{
+        width: 100%;
+    }
+   
+
+
+
+  </style>
+  <body>
+
+<!-- /navbar -->
+<div class="row color m-0 p-0">
+    <div class="col">
+<!-- <div class="fixed-top"> -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container ms-5">
+              <a class="navbar-brand text-light" href="#">Anand Dalsaniya.</a>
+              <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+              <div class= "">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active text-light " aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light " href="about us.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="project.html">Project</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+             </div>
+          </div>
+        </div>
+     </nav>
+ </div>
+</div>
+</div>
+
+
+
+    <div class="container">
+ <h1>  <span>J</span>OIN ME</h1>       
+        <form class="row g-3 mt-3 ">
+        <div class="col-md-6 ">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Password</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Address 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">State</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+            <div class="btn d-flex justify-content-center aling-item-center">
+                <button type="submit" class="btn btn-dark">Sign in</button>
+            </div>
+          
+        </div>
+      </form>
+    </div>      
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+  </body>
+</html>

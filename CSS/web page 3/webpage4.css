@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.man1{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid black; */
+    /* position: fixed;
+    top: 0; */
+    background-color: white;
+   
+}
+.logo{
+    width: 30%;
+    height: 100px;
+    /* border: 1px solid black; */
+    float: left;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 30px;
+    line-height: 100px;
+    color: black;
+    text-transform: uppercase;
+}
+.nav{
+    width:60%;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    float: right;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    line-height: 100px;
+}
+.man2{
+    width:80%;
+    height: 800px;
+    border: 1px solid transparent;
+    margin-left: 10%;
+    margin-top:50px;
+    background-image: url(img/a1.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+.man2::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.393);
+    position: absolute;
+}
+.text{
+    width: 50%;
+    height: 400px;
+    /* border: 1px solid black; */
+    margin-top: 300px;
+    margin-left: 40px;
+    position: relative;
+}
+.text p{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 30px;
+
+}
+.get{
+    width: 200px;
+    height: 40px;
+    /* border: 1px solid black; */
+    background-color: white;
+    margin-top: 30px;
+  
+    
+}
+.get h6{
+    color:black;
+    line-height:35px;
+    font-size: 20px;
+    margin-left: 10px;
+    text-transform: capitalize;
+   
+}
+.man3{
+    width: 100%;
+    height:700px;
+    /* border: 1px solid black; */
+    margin-top: 5px;
+}
+.man3 .a{
+    width:40%;
+    height:600px;
+    border:  1px solid transparent;
+    margin-left: 10%;
+    background-image: url(img/a2.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;   
+    float: left;
+}
+.man3 .b{
+    width: 40%;
+    height: 600px;
+    /* border: 1px solid black; */
+    float: right;
+    margin-right: 130px;
+}
+.b h6{
+    font-size:35px;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.b p{
+    font-size:25px;
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-inline: 10px;
+}
+.more{
+    width:30%;
+    height:0px;
+    border: 1px solid;
+    margin-top: 50px;
+    color: white;
+}
+.more h5{
+    text-transform:capitalize;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    background-color: black;
+}
+
+.more h5:hover{
+    background-color: rgb(162,96,40);
+    cursor: pointer;
+}
+.man5{
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.c p{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+.c{
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid black; */
+}
+.d{
+    width: 20%;
+    height: 200px;
+    /* border: 1px solid black; */
+  
+}
+.d h3{
+text-align: center;
+color: rgb(162,96,40);
+font-size: 24px;
+margin-top: 10px;
+}
+.d p{
+    margin-inline: 20px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.man6{
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid black; */
+    margin-top: 5px ;
+}
+.man6 h1{
+    font-size: 40px;
+    text-align: center;
+}
+.man7{
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.e{
+    width: 30%;
+    height: 600px;
+    /* border: 1px solid black; */
+    margin-top: 60px;
+    
+}
+.e img{
+    width: 100%;
+    height: 100%;
+}
+.man8{
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid black; */
+}
+.f{
+    width: 150px;
+    height: 40px;
+    /* border: 1px solid black; */
+    margin-left:600px;
+    /* margin-top: 10px; */
+
+
+}
+.f p{
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+   
+}
+.f p:hover{
+    background-color: rgb(162,96,40);
+    cursor: pointer;
+}
+/* .man9{
+   width: 100%;
+   height: 800px;
+   border: 1px solid black;
+} */
+
+

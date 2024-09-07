@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- style.css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- style.css -->
+    <!-- font cdn  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font cdn  -->
+    <!-- icon cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+      integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- icon cdn  -->
+    <!-- CSS -->
+    <link rel="stylesheet"href="https://unpkg.com/flickity@2/dist/flickity.min.css"/>
+  </head>
+
+  <body>
+    <div class="section-1 w-[100%] h-[600px]">
+      <div
+        class="nevbar w-[100%] h-[60px] flex justify-between items-center px-[5vw] bg-[white] fixed z-0"
+      >
+        <div class="logo w-[30%] h-[60px] flex items-center">
+          <img
+            src="img/logo.png"
+            class="sm:w-[60%] sm:h-[20px] md:w-[60%] md:h-[30px] lg:w-[50%] lg:h-[30px] w-[100%] h-[30px]"
+            alt=""
+          />
+        </div>
+        <div
+          class="anchor w-[50%] h-[60px] text-[12px] hidden md:flex justify-evenly items-center"
+        >
+          <a href="" class="text-[rgb(132,153,255)]"><span>HOME</span></a>
+          <a href="">FEATURE</a>
+          <a href="">WEOFFFER</a>
+          <a href="">ABOUT</a>
+          <a href="">CONTACT</a>
+          <a href="">PAGES</a>
+        </div>
+        <i
+          class="ri-menu-line text-[25px] text-[blue] md:hidden relative"
+          id="menu"
+        ></i>
+      </div>
+      <div
+        class="ml-[-100vw] duration-300 list absolute top-0 bottom-0 left-0 h-[100vh]"
+      >
+        <div
+          class="h-[100%] text-[13px] flex flex-col bg-[#000000ed] w-full fixed text-[white] items-center justify-evenly py-[20vw]"
+        >
+          <a href="" class="text-[rgb(132,153,255)]"><span>HOME</span></a>
+          <a href="">FEATURE</a>
+          <a href="">WEOFFFER</a>
+          <a href="">ABOUT</a>
+          <a href="">contact</a>
+          <a href="">PAGES</a>
+        </div>
+      </div>
+      <div
+        class="Efficiency w-full h-[470px] flex md:justify-end px-[20px] justify-center items-center pt-[10%]"
+      >
+        <div
+          class="Efficiency w-[100%] h-[350px] sm:w-[100%] md:w-[100%] lg:w-[60%] sm:h-[300px] md:h-[300px] lg:h-[300px] py-[10px] sm:py-[10px] md:py-[20px] md:px-[3vw] flex flex-col justify-between z-1"
+        >
+          <h4 class="text-[19px] py-[5px] md:text-[18px]">
+            DISCOVER THE COLORFUL WORLD
+          </h4>
+          <h1
+            class="md:text-[45px] lg:text-[50px] sm:text-[45px] text-[40px] leading-[50px] md:leading-[60px] font-[700]"
+          >
+            Efficiency Booster
+          </h1>
+          <p class="md:text-[15px] lg:text-[15px] text-[14px] text-[gray]">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod temp or incididuntut labore et dolore magna aliqua. Ut enim
+            ad minim.
+          </p>
+          <button
+            id="btn-1"
+            class="uppercase text-[white] w-[170px] h-[43px] rounded-[50px]"
+          >
+            discover now
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="section-2 w-[100%] h-[500px] lg:flex-row flex-col flex justify-center items-center">
+      <div
+        class="Online Support lg:w-[380px] lg:h-[210px] md:w-[100%] md:h-[210px] sm:w-[100%] sm:h-[210px] w-[100%] h-[210px] flex flex-col justify-around md:justify-around sm:justify-around lg:justify-around lg:px-[1vw] md:px-[4vw] sm:px-[4vw] px-[6vw]"
+      >
+        <img src="img/f1.png" class="w-[65px]" alt="" />
+        <h1
+          class="lg:text-[20px] md:text-[20px] sm:text-[20px] text-[15px] font-[600]"
+        >
+          Online Support
+        </h1>
+        <p
+          class="text-[gray] lg:text-[15px] md:text-[15px] sm:text-[15px] text-[13px]"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, ea!
+          At ratione reprehenderit harum end.
+        </p>
+      </div>
+      <div
+        class="Online Support lg:w-[380px] lg:h-[210px] md:w-[100%] md:h-[210px] sm:w-[100%] sm:h-[210px] w-[100%] h-[210px] flex flex-col justify-around lg:px-[1vw] md:px-[4vw] sm:px-[4vw] px-[6vw]"
+      >
+        <img src="img/f2.png " class="w-[65px]" alt="" />
+        <h1
+          class="lg:text-[20px] md:text-[20px] sm:text-[20px] text-[15px] font-[600]"
+        >
+          24/7 Round the Clock
+        </h1>
+        <p
+          class="text-[gray] lg:text-[15px] md:text-[15px] sm:text-[15px] text-[13px]"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, ea!
+          At ratione reprehenderit harum end.
+        </p>
+      </div>
+      <div
+        class="Online Support lg:w-[380px] lg:h-[210px] md:w-[100%] md:h-[210px] sm:w-[100%] sm:h-[210px] w-[100%] h-[210px] flex flex-col justify-around lg:px-[1vw] md:px-[4vw] sm:px-[4vw] px-[6vw]"
+      >
+        <img src="img/f3.png " class="w-[65px]" alt="" />
+        <h1
+          class="lg:text-[20px] md:text-[20px] sm:text-[20px] text-[15px] font-[600]"
+        >
+          Handling All Issues
+        </h1>
+        <p
+          class="text-[gray] lg:text-[15px] md:text-[15px] sm:text-[15px] text-[13px]"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, ea!
+          At ratione reprehenderit harum end.
+        </p>
+      </div>
+    </div>
+    <div class="section-3 w-[100%] h-[580px] mt-5">
+      <div class="slider w-full h-[580px]">
+        <div
+          class="content w-[100%] h-[580px] flex flex-col justify-around absolute lg:justify-center md:justify-center sm:justify-around items-center z-[1]"
+        >
+          <div
+            class="s1 w-[100%] h-[180px] text-center lg:w-[60%] lg:h-[180px] md:w-[100%] md:h-[180px] sm:w-[100%] sm:h-[180px] px-[2vw] sm:px-[2vw] md:px-[2vw]"
+          >
+            <h1 class="text-[white] text-[35px] font-[600]">
+              Why Choose Us Your Fitness Builder
+            </h1>
+            <p class="text-[white] text-[15px]">
+              Who are in extremely love with eco friendly system.
+            </p>
+          </div>
+          <div class="div-1 w-[100%] h-[190px] flex justify-center">
+            <div class="div-2 w-[90%] h-[190px]">
+              <div class="carousel" data-flickity='{ "groupCells": true }'>
+                <div
+                  class="carousel-cell w-[100%] h-[100%] lg:w-[555px] lg:h-[190px] md:w-[100%] md:h-[100%] sm:w-[100%] sm:h-[100%] bg-[white] flex justify-evenly lg:flex lg:justify-evenly md:flex md:justify-evenly sm:flex sm:justify-evenly text-[gray]"
+                >
+                  <div
+                    class="img w-[70px] h-[190px] flex justify-center py-[3vw]"
+                  >
+                    <img src="img/user1.png" alt="" class="w-[50px] h-[50px]" />
+                  </div>
+                  <div
+                    class="img w-[455px] h-[190px] flex flex-col justify-evenly py-[2vw] px-[1vw]"
+                  >
+                    <p class="text-[14px]">
+                      Accessories Here you can find the best computer accessory
+                      for your laptop, monitor, printer, scanner, speaker,
+                      projector, hardware.
+                    </p>
+                    <h1 class="text-[black] text-[20px] font-[600]">
+                      Mark Alviro Wiens
+                    </h1>
+                    <h3>CEO at Google</h3>
+                  </div>
+                </div>
+                <div
+                  class="carousel-cell w-[100%] h-[100%] lg:w-[555px] lg:h-[190px] md:w-[100%] md:h-[100%] sm:w-[100%] sm:h-[100%] bg-[white] flex justify-evenly lg:flex lg:justify-evenly md:flex md:justify-evenly sm:flex sm:justify-evenly text-[gray]"
+                >
+                  <div
+                    class="img w-[70px] h-[190px] flex justify-center py-[3vw]"
+                  >
+                    <img src="img/user2.png" alt="" class="w-[50px] h-[50px]" />
+                  </div>
+                  <div
+                    class="img w-[455px] h-[190px] flex flex-col justify-evenly py-[2vw] px-[1vw]"
+                  >
+                    <p class="text-[14px]">
+                      Accessories Here you can find the best computer accessory
+                      for your laptop, monitor, printer, scanner, speaker,
+                      projector, hardware.
+                    </p>
+                    <h1 class="text-[black] text-[20px] font-[600]">
+                      Mark Alviro Wiens
+                    </h1>
+                    <h3>CEO at Google</h3>
+                  </div>
+                </div>
+                <div
+                  class="carousel-cell w-[100%] h-[100%] lg:w-[555px] lg:h-[190px] md:w-[100%] md:h-[100%] sm:w-[100%] sm:h-[100%] bg-[white] flex justify-evenly lg:flex lg:justify-evenly md:flex md:justify-evenly sm:flex sm:justify-evenly text-[gray]"
+                >
+                  <div
+                    class="img w-[70px] h-[190px] flex justify-center py-[3vw]"
+                  >
+                    <img src="img/user1.png" alt="" class="w-[50px] h-[50px]" />
+                  </div>
+                  <div
+                    class="img w-[455px] h-[190px] flex flex-col justify-evenly py-[2vw] px-[1vw]"
+                  >
+                    <p class="text-[14px]">
+                      Accessories Here you can find the best computer accessory
+                      for your laptop, monitor, printer, scanner, speaker,
+                      projector, hardware.
+                    </p>
+                    <h1 class="text-[black] text-[20px] font-[600]">
+                      Mark Alviro Wiens
+                    </h1>
+                    <h3>CEO at Google</h3>
+                  </div>
+                </div>
+                <div
+                  class="carousel-cell w-[100%] h-[100%] lg:w-[555px] lg:h-[190px] md:w-[100%] md:h-[100%] sm:w-[100%] sm:h-[100%] bg-[white] flex justify-evenly lg:flex lg:justify-evenly md:flex md:justify-evenly sm:flex sm:justify-evenly text-[gray]"
+                >
+                  <div
+                    class="img w-[70px] h-[190px] flex justify-center py-[3vw]"
+                  >
+                    <img src="img/user1.png" alt="" class="w-[50px] h-[50px]" />
+                  </div>
+                  <div
+                    class="img w-[455px] h-[190px] flex flex-col justify-evenly py-[2vw] px-[1vw]"
+                  >
+                    <p class="text-[14px]">
+                      Accessories Here you can find the best computer accessory
+                      for your laptop, monitor, printer, scanner, speaker,
+                      projector, hardware.
+                    </p>
+                    <h1 class="text-[black] text-[20px] font-[600]">
+                      Mark Alviro Wiens
+                    </h1>
+                    <h3>CEO at Google</h3>
+                  </div>
+                </div>
+                <div
+                  class="carousel-cell w-[100%] h-[100%] lg:w-[555px] lg:h-[190px] md:w-[100%] md:h-[100%] sm:w-[100%] sm:h-[100%] bg-[white] flex justify-evenly lg:flex lg:justify-evenly md:flex md:justify-evenly sm:flex sm:justify-evenly text-[gray]"
+                >
+                  <div
+                    class="img w-[70px] h-[190px] flex justify-center py-[3vw]"
+                  >
+                    <img src="img/user1.png" alt="" class="w-[50px] h-[50px]" />
+                  </div>
+                  <div
+                    class="img w-[455px] h-[190px] flex flex-col justify-evenly py-[2vw] px-[1vw]"
+                  >
+                    <p class="text-[14px]">
+                      Accessories Here you can find the best computer accessory
+                      for your laptop, monitor, printer, scanner, speaker,
+                      projector, hardware.
+                    </p>
+                    <h1 class="text-[black] text-[20px] font-[600]">
+                      Mark Alviro Wiens
+                    </h1>
+                    <h3>CEO at Google</h3>
+                  </div>
+                </div>
+                <div
+                  class="carousel-cell bg-[white] flex justify-evenly text-[gray]"
+                >
+                  <div
+                    class="img w-[70px] h-[190px] flex justify-center py-[3vw]"
+                  >
+                    <img src="img/user2" alt="" class="w-[50px] h-[50px]" />
+                  </div>
+                  <div
+                    class="img w-[455px] h-[190px] flex flex-col justify-evenly py-[2vw] px-[1vw]"
+                  >
+                    <p class="text-[14px]">
+                      Accessories Here you can find the best computer accessory
+                      for your laptop, monitor, printer, scanner, speaker,
+                      projector, hardware.
+                    </p>
+                    <h1 class="text-[black] text-[20px] font-[600]">
+                      Mark Alviro Wiens
+                    </h1>
+                    <h3>CEO at Google</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-4 lg:w-[100%] lg:h-[410px] w-[100%] h-[520px] border-[1px] lg:flex lg:flex-row flex flex-col justify-center items-center md:flex md:flex-col sm:flex sm:flex-col lg:justify-center lg:items-center md:justify-center md:items-center sm:justify-center sm:items-center" >
+      <div
+        class="div1 lg:w-[50%] px-[5vw]  lg:h-[260px] w-[100%] h-[410px] md:w-[100%] sm:w-[100%] sm:h-[260px] flex flex-col justify-center items-center"
+      >
+        <div
+          class="div2 xl:w-[100%] xl:h-[130px] lg:w-[100%] lg:h-[130px] w-[100%] h-[130px] md:w-[80%] md:h-[130px] flex justify-evenly items-center"
+        >
+          <div
+            class="div3 sm:w-[140px]  sm:h-[110px] w-[90px] h-[70px] border-[1px] flex justify-center items-center"
+          >
+            <img src="img/o1.png" alt="" />
+          </div>
+          <div
+            class="div3 sm:w-[140px] sm:h-[110px] w-[90px] h-[70px] border-[1px] flex justify-center items-center"
+          >
+            <img src="img/o2.png" alt="" />
+          </div>
+          <div
+            class="div3 sm:w-[140px] sm:h-[110px] w-[90px] h-[70px] border-[1px] flex justify-center items-center"
+          >
+            <img src="img/o3.png" alt="" />
+          </div>
+        </div>
+        <div
+          class="div2 xl:w-[100%] xl:h-[130px] lg:w-[100%] lg:h-[130px] w-[100%] h-[130px] md:w-[80%] md:h-[130px] flex justify-evenly items-center"
+        >
+          <div
+            class="div3 sm:w-[140px] sm:h-[110px] w-[90px] h-[70px] border-[1px] flex justify-center items-center"
+          >
+            <img src="img/o4.png" alt="" />
+          </div>
+          <div
+            class="div3 sm:w-[140px] sm:h-[110px] w-[90px] h-[70px] border-[1px] flex justify-center items-center"
+          >
+            <img src="img/o5.png" alt="" />
+          </div>
+          <div
+            class="div3 sm:w-[140px] sm:h-[110px] w-[90px] h-[70px] border-[1px] flex justify-center items-center"
+          >
+            <img src="img/o6.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="div1 lg:w-[50%] px-[5vw]  lg:h-[260px] w-[100%] h-[410px] md:w-[100%] sm:w-[100%] sm:h-[260px] flex  justify-center items-center ">
+        <div class="div2 lg:w-[100%] lg:h-[260px] md:w-[70%] md:h-[260px]  sm:w-[80%] sm:h-[260px] w-[86%] h-[260px] flex flex-col justify-evenly"> 
+            <h1 class="text-[18px] font-[700]">Content Synchronization</h1>
+            <p class="text-[gray] text-[14px]">Few would argue that, despite the advancements off eminism over the past three decades, women still face a double standard when it comes to their behavior. While men’s borderline-inappropriate behavior.</p>
+            <button
+            id="btn-1"
+            class="uppercase text-[15px] text-[white] w-[140px] h-[40px] rounded-[50px]">VIEW DETAILS
+          </button>
+          </div>
+        </div>
+    </div>
+    <div class="section-5 w-[100%lg:w-[50%] lg:h-[500px] md:w-[100%] md:h-[500px] sm:w-[100%] sm:h-[500px] w-[100%] h-[500px]] h-[855px]">
+      
+    </div>
+    <div class="section-6 lg:w-[100%] lg:h-[500px] w-[100%] h-[1000px] lg:flex lg:flex-row md:flex md:flex-col sm:flex sm:flex-col  flex flex-col">
+      <div class="man-1 ">
+        <img src="img/info-img.jpg" alt="" class="w-[100%] h-[100%]">
+      </div>
+      <div class="man-1 lg:w-[50%] lg:h-[500px] md:w-[100%] md:h-[500px] sm:w-[100%] sm:h-[500px] w-[100%] h-[500px] flex items-center">
+        <div class="man-2 w-[100%] h-[500px] lg:w-[60%]  lg:h-[500px] lg:flex-col lg:flex  lg:justify-evenly md:flex md:flex-col md:justify-evenly sm:flex sm:flex-col sm:justify-evenly flex flex-col justify-evenly lg:px-[1vh]  px-[3vw] lg:py-[4vw]  py-[7vw] md:py-[7vw]">
+          <h1 class="text-[30px] font-[600]">Responsible <br> 
+              Customer Support</h1>
+          <p class="text-[gray] text-[13px]">Here, I focus on a range of items and features that we use in life without giving them a second thought. such as Coca Cola. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+          <button
+            id="btn-1"
+            class="uppercase text-[white] w-[160px] h-[40px] rounded-[50px]"
+          >
+          LEARN MORE
+          </button>
+        </div>
+      </div> 
+    </div>
+    <div class="section-7 lg:w-[100%] lg:h-[500px] w-[100%] h-[1000px] lg:flex lg:flex-row  md:flex md:flex-col sm:flex sm:flex-col flex flex-col ">
+      <div class="man-1  lg:w-[50%] lg:h-[500px] w-[100%] h-[500px] md:w-[100%] md:h-[500px] sm:w-[100%] sm:h-[500px] lg:flex lg:flex-col lg:justify-evenly flex flex-col justify-evenly  px-[5vw]">
+        <h1 class="text-[25px] font-[600]">We Believe that <br>
+          Interior beautifies the <br>
+          Total Architecture</h1>
+
+          <p class="text-[14px] text-[gray]">inappropriate behavior is often laughed off as “boys will be boys,”
+            women face higher conduct standards especially in the workplace.
+            That’s why it’s crucial that, as women, our behavior on the job is beyond
+            reproach. inappropriate behavior is often laughed off as “boys will
+            be boys,” women face higher conduct standards especially in the
+            workplace. That’s why it’s crucial that.
+            
+            SEE DETAILS</p>
+            <button
+            id="btn-1"
+            class="uppercase text-[white] w-[160px] h-[40px] rounded-[50px]"
+          >
+          LEARN MORE
+          </button>
+      </div>
+      <div class="man-1 lg:w-[50%] lg:h-[500px] md:w-[100%] md:h-[500px] sm:w-[100%] sm:h-[500px] w-[100%] h-[500px] lg:flex lg:justify-center lg:items-center flex justify-center items-center">
+        
+        <div class="man-11 lg:w-[100%] lg:h-[500px] md:w-[100%] md:h-[400px] sm:w-[100%] sm:h-[400px] flex justify-center items-center ">
+         <img src="img/video-bg.jpg" alt="" class="w-[100%] h-[100%]">
+        
+         <div class="man-12 w-[100px] h-[100px] absolute z-[1]">
+          <img src="img/play-btn.png" alt="" class="w-[100%] h-[100%]">
+         </div>
+        
+        </div>
+      </div>
+    </div>
+    <div class="section-8 w-[100%] h-auto ">
+    </div>
+   
+  </body>
+  <!-- script.js -->
+  <script
+    src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  <!-- script.js -->
+  <!-- JavaScript -->
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</html>
