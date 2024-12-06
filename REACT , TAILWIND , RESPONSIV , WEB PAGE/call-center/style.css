@@ -96,3 +96,7 @@
     height: 100%;
     content: "";
 }
+.hi{
+   left: -50% !important; 
+   transition: 1s;
+}

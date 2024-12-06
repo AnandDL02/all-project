@@ -1,7 +1,8 @@
 $(document).ready(function(){
+   
     $("#menu").click(function(){
-        $(".list").css("margin-left", "0px");
-        $("#menu").hide();
+        $(".si").toggleClass("hi");
+       
     })
 })
 

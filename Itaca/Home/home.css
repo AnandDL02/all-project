@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.image {
+    transition: 1s ease-in-out;
+}
+
+.block1 {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0px;
+    background-color: #ed2788;
+}
+
+
+.box2 {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #ed2788;
+}
+
+.img1 {
+    height: 120px;
+    width: 120px;
+    animation: animate1 30s linear infinite;
+}
+
+@keyframes animate1 {
+    50% {
+        transform: rotate(360deg);
+    }
+}
+
+.img2 {
+    height: 30px;
+    position: absolute;
+}
+
+#txt1 {
+    color: #ed2788;
+}
+
+.img3 {
+    transition-duration: 1s;
+}
+
+.background {
+    margin-left: 100px;
+    transition-duration: 1s;
+}
+
+.img4 {
+    transition-duration: 1s;
+}
+
+.background1 {
+    margin-left: -100px;
+    transition-duration: 1s;
+}
+
+.btn1 {
+    color: #ed2788;
+    background-color: white;
+    border-radius: 30px;
+    transition-duration: 0.5s;
+}
+
+.btn1:hover {
+    background-color: #ed2788;
+    color: white;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head1 a:hover{
+    border-bottom: 2px solid black;
+}
